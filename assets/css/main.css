@@ -117,38 +117,6 @@ a:hover
     color: #fff;
 }
 
-@media (max-width:700px)
-{
-    html
-    {
-        font-size: 15px;
-    }
-}
-
-@media (max-width:500px)
-{
-    html
-    {
-        font-size: 10px;
-    }
-}
-
-@media (max-width:350px)
-{
-    html
-    {
-        font-size: 9px;
-    }
-}
-
-@media (orientation:landscape) and (max-height:420px)
-{
-    html
-    {
-        font-size: 10px;
-    }
-}
-
 
 
 /** 2. Hero
@@ -295,19 +263,6 @@ a:hover
 .hero .front-content .footer p a
 {
     font-weight: bold;
-}
-
-@media (max-width:500px)
-{
-    left: 10vw;
-}
-
-@media (orientation:landscape) and (max-height:550px)
-{
-    .hero .front-content .footer
-    {
-        display: none;
-    }
 }
 
 
