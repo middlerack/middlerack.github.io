@@ -117,14 +117,6 @@ a:hover
     color: #fff;
 }
 
-@media (max-width:600px)
-{
-    html
-    {
-        font-size: 10px;
-    }
-}
-
 /** 2. Hero
 *******************************************************************/
 
@@ -206,7 +198,7 @@ a:hover
 {
     font-size: 1rem;
     font-weight: normal;
-    text-decoration: underline dotted;
+    text-decoration: underline;
     position: relative;
     text-underline-offset: 6px;
 
@@ -337,3 +329,20 @@ body.page-loaded .hero .background-content .background-img
 {
     opacity: 1;
 }
+
+@media (max-width:600px)
+{
+    html
+    {
+        font-size: 10px;
+    }
+    .hero .front-content
+    {
+      width: 360px;
+    }
+    .hero .front-content .footer
+    {
+      width: 360px;
+    }
+}
+
